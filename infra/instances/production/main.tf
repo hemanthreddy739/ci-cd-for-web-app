@@ -3,7 +3,7 @@ terraform {
     organization = "ci-cd-with-gh-actions-project"
 
     workspaces {
-      name = "ci-cd-project"
+      name = "production"
     }
   }
 
