@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "ci-cd-with-gh-actions-project"
+    organization = "cloud-matrix"
 
     workspaces {
       name = "production"
